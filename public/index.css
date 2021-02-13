@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", "Lucida Sans", sans-serif;
+}
+
+header {
+  box-shadow: 0 1px 4px #ddd;
+}
+
+header .logo {
+  float: left;
+  margin-top: -2px;
+  margin-left: 25px;
+  width: 100px;
+  height: 60px;
+  background: url(https://d2tr74t4vw7qu6.cloudfront.net/img/bewe-logo.svg) right
+    center no-repeat;
+  background-size: 100px auto;
+}
+
+h1,
+h2 {
+  font-size: 16pt;
+  color: #404040;
+  margin-right: 25px;
+}
+
+h2 {
+  font-size: 14pt;
+}
+
+main {
+  padding: 25px;
+}
+
+.question-container {
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 1px 4px #ddd;
+  margin-bottom: 20px;
+}
+
+.question-inputs input {
+  margin-right: 5px;
+}
+
+.question-inputs {
+  margin-bottom: 4px;
+}
+
+input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+input[type="text"] {
+  padding: 7px 4px;
+}
+
+input[type="submit"] {
+  padding: 7px 4px;
+}

@@ -11,7 +11,7 @@ $("form").on("submit", function (e) {
   });
 
   const endpoint = $form.attr("data-endpoint");
-  $.get(`/${endpoint}`, inputs, function (data) {
+  $.get(`/api/works/${endpoint}`, inputs, function (data) {
     $form.find(".language-json").html(JSON.stringify(data, 1, 1));
   });
 });
